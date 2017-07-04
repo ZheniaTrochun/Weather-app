@@ -19,9 +19,8 @@ public class WeatherController {
 
     @RequestMapping(path = "/getWeather", method = RequestMethod.GET)
     @CrossOrigin(value = "http://localhost:3000")
-    public WeatherHolder getWeatherByCity(@RequestParam String city, HttpServletResponse resp) {
+    public WeatherHolder getWeatherByCity(@RequestParam String city) {
 
-//        resp.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
         return weatherService.getWeatherByCity(city);
     }
 }
