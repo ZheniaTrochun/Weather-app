@@ -1,0 +1,16 @@
+api:
+  url: http://api.openweathermap.org/data/2.5/weather
+  access:
+    key: appid
+    value: 260fda7f80156cefedc7f738f466fb46
+  weather:
+    key: q
+
+
+logging:
+  level:
+    org.springframework.web: INFO
+    evgenii: DEBUG
+  pattern:
+    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+  file: logs/logs.log
