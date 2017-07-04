@@ -54,7 +54,6 @@ input 				{
 
 .submit-btn:hover {
   color: #2196f3;
-  border: 2px solid #2196f3 !important;
 }
 
 input:focus 		{ outline:none; }

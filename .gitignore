@@ -2,5 +2,4 @@
 /.idea
 /target
 /front/weather-front/node_modules
-/front/weather-front/build
 /logs
