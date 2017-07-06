@@ -6,6 +6,7 @@ api:
   weather:
     key: q
 
+cross-origin: http://localhost:3000
 
 logging:
   level:
