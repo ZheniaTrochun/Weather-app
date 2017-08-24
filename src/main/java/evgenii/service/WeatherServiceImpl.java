@@ -20,18 +20,6 @@ import java.util.Date;
 @Service
 public class WeatherServiceImpl implements WeatherService {
 
-//    @Value("${api.url}")
-//    private String apiUrl;
-//
-//    @Value("${api.access.key}")
-//    private String accessKey;
-//
-//    @Value("${api.access.value}")
-//    private String accessValue;
-//
-//    @Value("${api.weather.key}")
-//    private String weatherKey;
-
     private final static int CORRECT_LIST_INDEX = 0;
 
     private final WeatherRepo weatherRepo;
